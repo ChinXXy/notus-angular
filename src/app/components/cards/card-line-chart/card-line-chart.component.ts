@@ -21,6 +21,11 @@ export class CardLineChartComponent implements OnInit {
           "May",
           "June",
           "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December",
         ],
         datasets: [
           {
