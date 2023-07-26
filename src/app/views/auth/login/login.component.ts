@@ -21,11 +21,11 @@ export class LoginComponent implements OnInit {
   public isLoggedIn = false;
   isLoginFailed = false;
   constructor(
-     //private authService: AuthService,
-    // private tokenStorage: TokenStorageService,
-    // private router: Router
+    //  private authService: AuthService,
+      private tokenStorage: TokenStorageService,
+     private router: Router
     ) { }
-
+MSCBDA6
 
   onSubmit(): void {
     console.log("tugd");
